@@ -12,8 +12,8 @@ app.get("/",function(req,res){
 
 var at1;
 var on1;
-var at2 = 16.541921;
-var on2 = 81.497639;
+var at2 = 16.542159;
+var on2 = 81.498039;
 app.post('/',function(req,res){
   at1 = req.body.lat;
   on1 = req.body.lon;
