@@ -42,8 +42,11 @@
         var on1 ;
         function getLocation() {
           if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(showPosition);
-          } else { 
+            navigator.geolocation.getCurrentPosition(showPosition,function(error) {
+           if (error.code == error.PERMISSION_DENIED)
+           x.innerHTML="<h1>Permision denied</h1>");
+          });
+           else { 
             x.innerHTML = "Geolocation is not supported by this browser.";
           }
         }
