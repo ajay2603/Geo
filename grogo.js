@@ -28,7 +28,7 @@ app.post('/',function(req,res){
   dic= dic.toFixed(2);
   dic = dic+"m";
  }
- res.send(dic);
+ res.send("<!DOCTYPE html><html ><head> <title>Distance</title></head><body><center> <h1>The Distance between you and me is</h1><br><h1>"+dic+"</h1></center></body></html>");
 
 })
 
