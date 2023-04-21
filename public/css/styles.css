@@ -42,10 +42,6 @@ body {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }*/
-.imgSh{
-  border-radius: 5px;
-  box-shadow: 0 2px 4px 0 black, 0 2px 4px 0 black;
-}
     
 #overlay {
   position: fixed;
